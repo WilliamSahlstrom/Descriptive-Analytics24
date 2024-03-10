@@ -6,6 +6,7 @@ This project consists of two main Python scripts, `Retrieval.py` and `Analysis.p
 
 - [Retrieval.py](#retrievalpy)
 - [Analysis.py](#analysispy)
+- [Dashboard.py](#dashboardpy)
 - [Results](#results)
 - [Data Sample](#data-sample)
 
@@ -31,6 +32,13 @@ This script analyzes the scraped headlines for sentiment and visualizes the most
 - `main()`: Executes the analysis, including loading the data, performing sentiment analysis, generating word clouds, and saving the results.
 
 The script utilizes the Vader Sentiment Analysis tool for sentiment analysis and the WordCloud library for visualizing word frequency.
+
+## Dashboard.py
+
+This script uses the Dash library to create a simple web-based dashboard for visualizing sentiment scores over time and comparing the differences in sentiment scores between the two periods (March 2020 and March 2022). The dashboard includes:
+
+- A bar chart displaying the average Vader compound score over time.
+- A bar chart comparing the sentiment scores between the two specified periods.
 
 ### Results
 
